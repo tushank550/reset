@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#fff8f6">
+  <title>Us, Reset ✿</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="blush blush-one"></div>
+  <div class="blush blush-two"></div>
+
+  <main id="app">
+
+    <section class="screen active" id="intro">
+      <div class="tiny-top">for us ♡</div>
+
+      <div class="hero">
+        <p class="eyebrow">a little reset</p>
+        <h1>Can we<br><em>start fresh?</em></h1>
+        <p class="lead">Not because I want to forget everything. I just want us to leave the little things behind and get back to enjoying us.</p>
+      </div>
+
+      <div class="bottom">
+        <p class="small-note">no pressure. just us.</p>
+        <button class="primary" data-next="promise">Okay, let's do it <span>→</span></button>
+      </div>
+    </section>
+
+
+    <section class="screen memories" id="memories">
+      <div class="tiny-top">a few of my favorite us moments ♡</div>
+
+      <div class="memory-heading">
+        <p class="eyebrow">just because</p>
+        <h2>Some of my<br><em>favorite moments.</em></h2>
+        <p class="plain">There's a lot I could put here, but these are a few that make me smile.</p>
+      </div>
+
+      <div class="memory-scroller">
+        <article class="memory-card">
+          <img src="photos/memory-1.jpeg" alt="A photo of us together">
+          <div><span>01</span><p>One of my favorite pictures of us ♡</p></div>
+        </article>
+        <article class="memory-card">
+          <img src="photos/memory-2.jpeg" alt="A cozy photo of us together">
+          <div><span>02</span><p>The random little moments are some of my favorites.</p></div>
+        </article>
+        <article class="memory-card">
+          <img src="photos/memory-3.jpeg" alt="A playful photo of us together">
+          <div><span>03</span><p>You make even the dumb moments fun.</p></div>
+        </article>
+        <article class="memory-card">
+          <img src="photos/memory-4.jpeg" alt="A photo of us with flowers">
+          <div><span>04</span><p>Just one of those really good days.</p></div>
+        </article>
+        <article class="memory-card">
+          <img src="photos/memory-5.jpeg" alt="A photo of us outside">
+          <div><span>05</span><p>And this one will always be a favorite.</p></div>
+        </article>
+      </div>
+
+      <div class="memory-footer">
+        <p>swipe through →</p>
+        <button class="primary" data-next="promise">Okay, now let's reset <span>→</span></button>
+      </div>
+    </section>
+
+    <section class="screen" id="promise">
+      <div class="progress"><span class="on"></span><span></span><span></span></div>
+      <div class="step">1 / 3</div>
+
+      <div class="content">
+        <p class="eyebrow">Before we do</p>
+        <h2>Keep the good<br><em>stuff.</em></h2>
+
+        <div class="note-card">
+          <div class="heart-icon">♡</div>
+          <p>The laughs. The random conversations. The dates. The stupid little moments. All the memories that made us happy.</p>
+        </div>
+
+        <p class="plain">We're not starting from zero. We're just choosing to make the next part even better.</p>
+      </div>
+
+      <button class="primary" data-next="reset">I'm in <span>→</span></button>
+    </section>
+
+    <section class="screen" id="reset">
+      <div class="progress"><span class="on"></span><span class="on"></span><span></span></div>
+      <div class="step">2 / 3</div>
+
+      <div class="reset-area">
+        <p class="eyebrow">Okay...</p>
+        <h2>Ready to<br><em>reset?</em></h2>
+        <p class="plain">One little button.<br>A fresh start for us.</p>
+
+        <button class="reset-button" id="resetButton">
+          <span>RESET</span>
+          <small>♡</small>
+        </button>
+
+        <p class="tap">tap it together :)</p>
+      </div>
+    </section>
+
+    <section class="screen" id="loading">
+      <div class="loading-area">
+        <div class="spinner">♡</div>
+        <p class="eyebrow">just a second...</p>
+        <h2>Getting us back<br>to the good stuff.</h2>
+
+        <div class="checks">
+          <div id="c1"><i>○</i> letting the little things go</div>
+          <div id="c2"><i>○</i> keeping the good memories</div>
+          <div id="c3"><i>○</i> choosing each other</div>
+          <div id="c4"><i>○</i> starting fresh</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="screen finale" id="finale">
+      <div class="confetti"></div>
+
+      <div class="final-content">
+        <p class="eyebrow">okay... we did it ♡</p>
+        <div class="big-heart">♥</div>
+        <h1>Here's to<br><em>us.</em></h1>
+        <p class="lead">More laughs. More dates. More random conversations. More memories. And hopefully a lot less overthinking.</p>
+
+        <div class="chapter">
+          <span>OUR NEXT CHAPTER</span>
+          <strong>starts now ♡</strong>
+        </div>
+
+        <div class="pills">
+          <span>more laughs</span>
+          <span>more memories</span>
+          <span>better communication</span>
+          <span>more us</span>
+        </div>
+
+        <p class="final-line">I love you. Let's make this one a good one.</p>
+
+        <button class="again" id="replay">do it again ↻</button>
+      </div>
+    </section>
+
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
